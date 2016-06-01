@@ -214,7 +214,7 @@ Meteor Up uses Docker to run and manage your app. It uses [MeteorD](https://gith
 * we've a demonized docker container running the above bundle.
 * docker container is started with `--restart=always` flag and it'll re-spawn the container if dies.
 * logs are maintained via Docker.
-* If you decided to use MongoDB, it'll be also running as a Docker conatiner. It's bound to the local interface and port 27017 (you cannot access from the outside)
+* If you decided to use MongoDB, it'll be also running as a Docker container. It's bound to the local interface and port 27017 (you cannot access from the outside)
 * the database is named `<appName>`
 
 For more information see [`lib/taskLists.js`](https://github.com/arunoda/meteor-up/blob/mupx/lib/taskLists/linux.js).
